@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
-    <script defer src=""></script>
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <title>Find Exam Center</title>
+    <!-- <script defer src=""></script> -->
 
 </head>
 <body>
@@ -25,18 +28,18 @@
                 <select name="course" id="course" class="form-select" required>
                     <option value="" selected>--Select your Programme--</option>
                     <option value="cs">Computer Science</option>
-                    <option value="math">Mathematics</option>
-                    <option value="biochem">Biochemistry</option>
-                    <option value="bio">Biology</option>
-                    <option value="stat">Statistics</option>
-                    <option value="act">Acturial</option>
-                    <option value="chem">Chemistry</option>
-                    <option value="envSc">Environmental Science</option>
-                    <option value="fst">Food science</option>
-                    <option value="met">Meteorology</option>
-                    <option value="phy">Physics</option>
+                    <option value="math" disabled>Mathematics</option>
+                    <option value="biochem" disabled>Biochemistry</option>
+                    <option value="bio" disabled>Biology</option>
+                    <option value="stat" disabled>Statistics</option>
+                    <option value="act" disabled>Acturial</option>
+                    <option value="chem" disabled>Chemistry</option>
+                    <option value="envSc" disabled>Environmental Science</option>
+                    <option value="fst" disabled>Food science</option>
+                    <option value="met" disabled>Meteorology</option>
+                    <option value="phy" disabled>Physics</option>
                 </select>
-                <!-- <div class="form-text">We'll never share your email with anyone else.</div> -->
+                <div class="form-text">Other courses will be active soon.</div>
             </div>
             <div class="mb-3">
                 <label class="form-label">Enter Index Number: </label> 
