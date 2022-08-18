@@ -57,7 +57,7 @@ $roomRange = count($rooms);
 
 if (!in_array($indexNo, $allIndex)) {
     echo '<h3>Index Number not found!<h3>
-	<div class="text-center"><a href="index.html"><button type="submit" class="btn btn-info btn-lg">GO HOME</button></a></div>
+	<div class="text-center"><a href="index.php"><button type="submit" class="btn btn-info btn-lg">GO HOME</button></a></div>
 	';
 } else{ 
     for($j=0; $j < $roomRange; ++$j) { 
@@ -68,8 +68,9 @@ if (!in_array($indexNo, $allIndex)) {
                 echo '
                     <div class="output">
                         <h1>You are writing in '.$room.'</h1>
+			<div class="text-center"><a href="index.php"><button type="submit" class="btn btn-info btn-lg">GO HOME</button></a></div>
                     <div>
-		    <div class="text-center"><a href="index.html"><button type="submit" class="btn btn-info btn-lg">GO HOME</button></a></div>
+		    
                 ';
             }
         }
