@@ -100,21 +100,3 @@ h3{
 ';
 
 ?>
-
-<<<<<<< HEAD
-=======
-
-<!-- # Starting index number of the rooms
-SF1_start = 1000
-SF7_start = 1101
-SF8_start = 1201
-SF19_start = 1301
-SF20_start = 1401
-
-# Ending index number of the rooms
-SF1_end = 1101
-SF7_end = 1201
-SF8_end = 1301
-SF19_end = 1401
-SF20_end = 1501 -->
->>>>>>> b7431750596834a2bf9f2affb9459919ca92d995
