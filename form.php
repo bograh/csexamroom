@@ -69,13 +69,13 @@ if (!in_array($indexNo, $allIndex)) {
                     <div class="output">
                         <h1>You are writing in '.$room.'</h1>
                     <div>
-		    
+		    <div class="text-center"><a href="index.php"><button type="submit" class="btn btn-info btn-lg">GO HOME</button></a></div>
                 ';
             }
         }
     }
 }
-echo '<div class="text-center"><a href="index.php"><button type="submit" class="btn btn-info btn-lg">GO HOME</button></a></div>';
+
 echo '
 <style>
 h3{
