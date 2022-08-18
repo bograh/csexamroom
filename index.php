@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Find Exam Center</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 
@@ -22,7 +23,7 @@
       </nav>
     <h1 class="text-center">Find Your Exam Venue</h1><br>
     <div class="main">
-        <form action="form.php" method="get">
+        <form action="/form.php" method="get">
             <div class="mb-3">
                 <label class="form-label">Select Programme: </label>
                 <select name="course" id="course" class="form-select" required>

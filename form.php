@@ -2,6 +2,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Find Exam Center</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
@@ -72,6 +73,7 @@ if (!in_array($indexNo, $allIndex)) {
                         <h1>You are writing in '.$room.'</h1>
                         <div class="text-center"><a href="index.php"><button type="submit" class="btn btn-info btn-lg">GO HOME</button></a></div>
                     <div>
+		    <div class="text-center"><a href="index.php"><button type="submit" class="btn btn-info btn-lg">GO HOME</button></a></div>
                 ';
             }
         }
@@ -99,3 +101,20 @@ h3{
 
 ?>
 
+<<<<<<< HEAD
+=======
+
+<!-- # Starting index number of the rooms
+SF1_start = 1000
+SF7_start = 1101
+SF8_start = 1201
+SF19_start = 1301
+SF20_start = 1401
+
+# Ending index number of the rooms
+SF1_end = 1101
+SF7_end = 1201
+SF8_end = 1301
+SF19_end = 1401
+SF20_end = 1501 -->
+>>>>>>> b7431750596834a2bf9f2affb9459919ca92d995
