@@ -8,6 +8,7 @@
 
 </head>
 <?php
+include 'room_var.php';
 
 $indexNo = $_GET["indexNo"];
 $course = $_GET["course"];
